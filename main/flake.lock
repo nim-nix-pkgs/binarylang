@@ -1,0 +1,134 @@
+{
+  "nodes": {
+    "bitstreams": {
+      "inputs": {
+        "bitstreams-main": "bitstreams-main",
+        "flakeNimbleLib": [
+          "flakeNimbleLib"
+        ],
+        "nixpkgs": [
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1647934080,
+        "narHash": "sha256-4UPygGAc58jp/e+vp0i8YTfZ9xKooC2+3akIBnVQdH8=",
+        "owner": "nim-nix-pkgs",
+        "repo": "bitstreams",
+        "rev": "2f682281ab5a3d9d677406644634ca4449bde43e",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nim-nix-pkgs",
+        "ref": "master",
+        "repo": "bitstreams",
+        "type": "github"
+      }
+    },
+    "bitstreams-main": {
+      "inputs": {
+        "flakeNimbleLib": [
+          "bitstreams",
+          "flakeNimbleLib"
+        ],
+        "nixpkgs": [
+          "bitstreams",
+          "nixpkgs"
+        ],
+        "src-bitstreams-main": "src-bitstreams-main"
+      },
+      "locked": {
+        "dir": "main",
+        "lastModified": 1647934080,
+        "narHash": "sha256-4UPygGAc58jp/e+vp0i8YTfZ9xKooC2+3akIBnVQdH8=",
+        "owner": "nim-nix-pkgs",
+        "repo": "bitstreams",
+        "rev": "2f682281ab5a3d9d677406644634ca4449bde43e",
+        "type": "github"
+      },
+      "original": {
+        "dir": "main",
+        "owner": "nim-nix-pkgs",
+        "ref": "master",
+        "repo": "bitstreams",
+        "type": "github"
+      }
+    },
+    "flakeNimbleLib": {
+      "inputs": {
+        "nixpkgs": [
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1647920574,
+        "narHash": "sha256-D3ob5QykELhyNcTnISOkjEzLlgXltwON8Ucrz5cpiQI=",
+        "owner": "riinr",
+        "repo": "nim-flakes-lib",
+        "rev": "bfb46a1f762002f07f9d81d93dacd544c6890623",
+        "type": "github"
+      },
+      "original": {
+        "owner": "riinr",
+        "ref": "master",
+        "repo": "nim-flakes-lib",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "narHash": "sha256-sK1Ow//80EKE3bAF5d+2gB8vPXw6m5TBk3wSLHvdVe0=",
+        "path": "/nix/store/0yqgkbpmsk7ck4s34wk505sfdd9vils4-source",
+        "type": "path"
+      },
+      "original": {
+        "id": "nixpkgs",
+        "type": "indirect"
+      }
+    },
+    "root": {
+      "inputs": {
+        "bitstreams": "bitstreams",
+        "flakeNimbleLib": "flakeNimbleLib",
+        "nixpkgs": "nixpkgs",
+        "src-binarylang-main": "src-binarylang-main"
+      }
+    },
+    "src-binarylang-main": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1629672991,
+        "narHash": "sha256-wyoZyegAcGuQ41tgb4JO7sNfKkwakvbBoAel3QO1Gms=",
+        "owner": "sealmove",
+        "repo": "binarylang",
+        "rev": "10a368caf6afca98851b9e8f6553274c9765501f",
+        "type": "github"
+      },
+      "original": {
+        "owner": "sealmove",
+        "ref": "refs/heads/main",
+        "repo": "binarylang",
+        "type": "github"
+      }
+    },
+    "src-bitstreams-main": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1623116465,
+        "narHash": "sha256-qjfcShJcrx4Nljx6vjkcKNw9nn5XFOaEuDwwqBVaF8o=",
+        "owner": "sealmove",
+        "repo": "bitstreams",
+        "rev": "e346580b72616d96ac62e6d9c11d53216ea2bc0f",
+        "type": "github"
+      },
+      "original": {
+        "owner": "sealmove",
+        "ref": "refs/heads/main",
+        "repo": "bitstreams",
+        "type": "github"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
