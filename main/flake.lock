@@ -2,48 +2,21 @@
   "nodes": {
     "bitstreams": {
       "inputs": {
-        "bitstreams-main": "bitstreams-main",
         "flakeNimbleLib": [
           "flakeNimbleLib"
         ],
         "nixpkgs": [
-          "nixpkgs"
-        ]
-      },
-      "locked": {
-        "lastModified": 1648107319,
-        "narHash": "sha256-H3Z7Wirf2AcO+GwC5ENXdmVHAaHKNYtqZOcdgplhWQ4=",
-        "owner": "nim-nix-pkgs",
-        "repo": "bitstreams",
-        "rev": "289732b9d0cf7d1e681c51f01046a5b29e10e486",
-        "type": "github"
-      },
-      "original": {
-        "owner": "nim-nix-pkgs",
-        "ref": "master",
-        "repo": "bitstreams",
-        "type": "github"
-      }
-    },
-    "bitstreams-main": {
-      "inputs": {
-        "flakeNimbleLib": [
-          "bitstreams",
-          "flakeNimbleLib"
-        ],
-        "nixpkgs": [
-          "bitstreams",
           "nixpkgs"
         ],
         "src-bitstreams-main": "src-bitstreams-main"
       },
       "locked": {
         "dir": "main",
-        "lastModified": 1648107319,
-        "narHash": "sha256-H3Z7Wirf2AcO+GwC5ENXdmVHAaHKNYtqZOcdgplhWQ4=",
+        "lastModified": 1648162950,
+        "narHash": "sha256-5M6Fs3IDZKr2e51c83V3R59fbXcLSlKn6XEBiK7HNUg=",
         "owner": "nim-nix-pkgs",
         "repo": "bitstreams",
-        "rev": "289732b9d0cf7d1e681c51f01046a5b29e10e486",
+        "rev": "a435c418b890248fe3dd77c87ed342039e5d6652",
         "type": "github"
       },
       "original": {
