@@ -11,7 +11,6 @@
   inputs.src-binarylang-v0_3_1.ref   = "refs/tags/v0.3.1";
   inputs.src-binarylang-v0_3_1.owner = "sealmove";
   inputs.src-binarylang-v0_3_1.repo  = "binarylang";
-  inputs.src-binarylang-v0_3_1.dir   = "";
   inputs.src-binarylang-v0_3_1.type  = "github";
   
   inputs."bitstreams".owner = "nim-nix-pkgs";
